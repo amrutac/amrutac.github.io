@@ -36,7 +36,7 @@ section {
 
 .socialBtn:hover
 {
-  opacity:1;
+  opacity: 1;
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
   transform: scale(1.3);
@@ -46,4 +46,10 @@ section {
 .socialBtnLink {
   padding: 5px;
   text-decoration: none;
+}
+
+@media all and (max-device-width: 480px)  {
+  body {
+    background-color: red;
+  }
 }
